@@ -20,3 +20,9 @@ Admin → Uses /event
 Student → Uses /student, /register, /attendance, /feedback
 
 Future scope includes fully functioning web app for admin and mobile app for the students.
+
+To run the app
+pip install flask (if not already installed)
+python app.py
+
+API can be used using POST or GET
