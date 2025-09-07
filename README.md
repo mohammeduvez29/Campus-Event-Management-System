@@ -14,15 +14,15 @@ Admin responsibilty is to create an event.
 
 Student responsiblities include registering for event, marking attendance, and submitting  feedback.
 
-No login/authentication → I keep it simple for the assignment.
-One Flask app handles both roles → APIs decide what each role can do.
-Admin → Uses /event
+No login/authentication → I keep it simple for the assignment.\n
+One Flask app handles both roles → APIs decide what each role can do.\n
+Admin → Uses /event\n
 Student → Uses /student, /register, /attendance, /feedback
 
 Future scope includes fully functioning web app for admin and mobile app for the students.
 
-To run the app
-pip install flask (if not already installed)
+To run the app\n
+pip install flask (if not already installed)\n
 python app.py
 
 API can be used using POST or GET
